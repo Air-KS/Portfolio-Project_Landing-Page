@@ -1,0 +1,76 @@
+/* Style principal de la page */
+
+body {
+  margin:0 auto;
+  max-width: 70%;
+  padding: 0 20px;
+  background-color: #A6D2D2;
+  color: #264A4A;
+  font-family: Arial, sans-serif;
+}
+
+.fixeHeader {
+  position: fixed;
+  top: -5px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  border-radius: 10px;
+  background-color: bisque;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  align-items: center;
+}
+
+.menu {
+  top: 0;
+  right: 0;
+  margin: 1em;
+  align-items: center;
+}
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #264A4A;
+}
+.menu a:hover {
+  color: #0084E6A1;
+}
+
+.titreHollyConnect {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+}
+.banner {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  padding: 5%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.logoContainer {
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 130px;
+  height: auto;
+  margin: 1em;
+
+}
+.logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.slogan {
+ text-align: center; /* (Temporaire) - Modifier la valeur en cas de besoin */
+}
