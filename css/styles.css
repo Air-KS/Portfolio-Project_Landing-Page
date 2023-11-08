@@ -91,6 +91,16 @@
   }
 }
 
+.social-links {
+  display: inline-block;
+  text-align: center;
+}
+
+.social-links a {
+  display: inline;
+  margin: 0 10px;
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
